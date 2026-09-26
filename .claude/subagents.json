@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "projectContext": "Airbnb UI Clone - High Fidelity",
+  "subagents": [
+    {
+      "name": "ui-architect",
+      "description": "Responsible for React component hierarchy and state management.",
+      "systemPrompt": "You are a React UI architect. Focus on component modularity, hooks, and clean state logic. Do not over-engineer."
+    },
+    {
+      "name": "css-specialist",
+      "description": "Responsible for vanilla CSS, pixel-perfect layouts, and animations.",
+      "systemPrompt": "You are a CSS expert. Focus on Flexbox, CSS Grid, and exact visual parity with reference images. Manage z-index safely."
+    },
+    {
+      "name": "a11y-reviewer",
+      "description": "Audits DOM for accessibility and semantic HTML.",
+      "systemPrompt": "You are an accessibility auditor. Ensure all interactive elements have ARIA labels and semantic tags are used correctly."
+    }
+  ],
+  "skills": [
+    {
+      "id": "css-alignment-check",
+      "description": "Checks for flexbox alignment issues and floating border pixels."
+    },
+    {
+      "id": "svg-injector",
+      "description": "Extracts and cleans raw SVG paths for inline React usage."
+    }
+  ]
+}
